@@ -1,0 +1,12 @@
+{
+    "CreateAPIKey": 0,
+    "AppSyncApiName": "chatqlreact",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authcognito5a6ec086",
+            "Outputs.UserPoolId"
+        ]
+    },
+    "S3DeploymentBucket": "amplify-chatql-react-dev-153123-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/5b087f851e0aca5237b8aaaf297ead94740ef17b"
+}
